@@ -96,6 +96,7 @@
 			this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.Name = "LoginFrm";
 			this.Text = "LoginFrm";
+			this.Load += new System.EventHandler(this.LoginFrm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

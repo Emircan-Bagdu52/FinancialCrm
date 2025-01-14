@@ -47,5 +47,10 @@ namespace FinancialCrm
 				MessageBox.Show("Kullanıcı adı veya şifre hatalı.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
+
+		private void LoginFrm_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
